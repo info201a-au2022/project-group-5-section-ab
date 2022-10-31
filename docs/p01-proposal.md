@@ -52,7 +52,7 @@ With 85% of breast cancer patients having no family history of the disease, our 
 
 ![graph](https://unitedcsf.org/wp-content/uploads/2018/10/breast-cancer-family-history.png)
 
-The project intends to implement the following **human values**：
+***The project intends to implement the following **human values**:***
 
 1.**Empathy**
 
@@ -64,7 +64,7 @@ The project intends to implement the following **human values**：
 
 From a human value perspective, breast cancer plays a large role. No one wants to see a family member, a friend, or anyone they care about suffer from this disease. People care about having a healthy and long life, which breast cancer can get in the way of that goal. According to [BreastCancer.org](https://www.breastcancer.org/facts-statistics.), "Breast cancer is the most commonly diagnosed cancer among American women. In 2022, it's estimated that about 30% of newly diagnosed cancers in women are going to be breast cancers." The wide spread that breast cancer has in our society is massive. Which continues to show that people care about spreading awareness and raising funds to help those in need. Also showing why people place such a high value on the month of October. By dedicating a whole month to Breast Cancer Awareness, everyday people are showing how much they value fighting this disease and bringing attention to prevention and treatment methods.
 
-The project takes following **stakeholders**:
+***The project takes following **stakeholders**:***
 
 1.**direct stakeholders**
 
@@ -74,7 +74,7 @@ The direct stakeholders are any women that look at this data to analyze the cont
 
 The indirect stakeholders of breast cancer diagnosis are those who may not suffer from the disease but have a loved one that does. Breast cancer treatment is not cheap and is not fast. When a mother, sister, boss, friend, or any person in your life is diagnosed, their main attention and priority is healing. Therefore, this can easily have harmful effects on the people around them.
 
-**harms**: Evidently, there are many harmful effects of breast cancer. When caught early, the treatment and survival rate are known to be much more favorable for the patient. However, there are factors outside of early detection that contribute to breast cancer diagnosis. According to data found by the National Cancer Institution between 2010-2014, "The average age of diagnosis of breast cancer was 62 years. Furthermore, breast cancer in women is most often diagnosed between the ages of 55 and 64 years." So, women of an older age are at a higher risk for developing breast cancer.
+***harms***: Evidently, there are many harmful effects of breast cancer. When caught early, the treatment and survival rate are known to be much more favorable for the patient. However, there are factors outside of early detection that contribute to breast cancer diagnosis. According to data found by the National Cancer Institution between 2010-2014, "The average age of diagnosis of breast cancer was 62 years. Furthermore, breast cancer in women is most often diagnosed between the ages of 55 and 64 years." So, women of an older age are at a higher risk for developing breast cancer.
 
 ### Research questions
 
