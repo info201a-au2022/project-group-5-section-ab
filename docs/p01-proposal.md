@@ -10,9 +10,9 @@ Don't panic: interpreting the breast cancer
 
 ### Authors
 
-Jiacheng Gong([jchengg\@uw.edu](mailto:jchengg@uw.edu){.email})
+Jiacheng Gong([jchengg\@uw.edu](mailto:jchengg@uw.edu)
 
-Ferryn Drake ([fdrake\@uw.edu](mailto:fdrake@uw.edu){.uri})
+Ferryn Drake ([fdrake\@uw.edu](mailto:fdrake@uw.edu)
 
 Anneliese Boucher
 
