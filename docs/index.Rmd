@@ -29,7 +29,7 @@ msg <- data_access_test(" Morgan!")
 > `r msg` Hope you have a good day!! 
 
 ### Sourcing Summary Information
-```{r setup, include=FALSE}
+```{r}
 source("../source/summaryinfo.R")
 knitr::opts_chunk$set(echo = TRUE)
 ```
@@ -43,7 +43,7 @@ and breast cancer rates.
 
 
 ### Sourcing summary table
-```{r setup, include=FALSE}
+```{r}
 source("../source/summarytable.R")
 knitr::opts_chunk$set(echo = TRUE)
 ```
@@ -57,7 +57,7 @@ cancer and deahts have slightly decreased over the past 10 years.
 
 
 ### Sourcing location/race chart
-```{r setup, include=FALSE}
+```{r}
 source("../source/chart1.R")
 knitr::opts_chunk$set(echo = TRUE)
 ```
@@ -69,7 +69,7 @@ develop breast cancer.
 
 
 ### Sourcing marital status
-```{r setup, include=FALSE}
+```{r}
 source("../source/chart-2.R")
 knitr::opts_chunk$set(echo = TRUE)
 ```
@@ -79,7 +79,7 @@ rates. We did not find a strong positive correlation between these two factors, 
 those who are married in one or both of those activities do not have a much higher chance of 
 being diagnosed with breast cancer.
 
-```{r setup, include=FALSE}
+```{r}
 source("../source/chart_3.R")
 knitr::opts_chunk$set(echo = TRUE)
 ```
