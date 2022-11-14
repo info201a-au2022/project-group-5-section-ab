@@ -10,13 +10,13 @@ Don't panic: interpreting the breast cancer
 
 ### Authors
 
-Jiacheng Gong([jchengg\@uw.edu](mailto:jchengg@uw.edu)
+Jiacheng Gong([jchengg\@uw.edu](mailto:jchengg@uw.edu))
 
-Ferryn Drake ([fdrake\@uw.edu](mailto:fdrake@uw.edu)
+Ferryn Drake ([fdrake\@uw.edu](mailto:fdrake@uw.edu))
 
-Anneliese Boucher
+Anneliese Boucher ([anelabee\@uw.edu](mailto:anelabee@uw.edu))
 
-Benjamin Po
+Benjamin Po ([bkp2002\@uw.edu](mailto:bkp2002@uw.edu))
 
 ### Affiliation
 
@@ -36,7 +36,7 @@ The main question is that the public lacks awareness of breast cancer due to its
 
 ## Introduction
 
-Other than skin cancer, breast cancer is the most common cancer among American women, according to the [CDC](https://www.cdc.gov/cancer/breast/basic_info/index.htm#:~:text=Each%20year%20in%20the%20United,What%20Is%20Breast%20Cancer%3F). However, it is unfortunate that many people still do not realize how personally risky breast cancer is. The American cancer society shows that each year in the United States, about 264,000 women get breast cancer and 42,000 die from the disease. Plenty of them could survive if breast cancer is diagnosed and treated promptly. We hope to use the data that takes clinical indicators to analyze, using our analyswes to educate the publwec about breast cancer, both for the benefit of the healthy and those who are already battling the disease. Meanwhile, it is vital to clarify the misunderstanding of breast cancer to break people's fear of cancer and let their nerves off.
+Other than skin cancer, breast cancer is the most common cancer among American women, according to the [CDC](https://www.cdc.gov/cancer/breast/basic_info/index.htm#:~:text=Each%20year%20in%20the%20United,What%20Is%20Breast%20Cancer%3F). However, it is unfortunate that many people still do not realize how personally risky breast cancer is. The American cancer society shows that each year in the United States, about 264,000 women get breast cancer and 42,000 die from the disease. Plenty of them could survive if breast cancer is diagnosed and treated promptly. We hope to use the data that takes clinical indicators to analyze, using our analyses to educate the public about breast cancer, both for the benefit of the healthy and those who are already battling the disease. Meanwhile, it is vital to clarify the misunderstanding of breast cancer to break people's fear of cancer and let their nerves off. Furthermore we hope to identify correlations between certain behaviors and an increased risk of breast cancer to alert the public of certain things they should avoid in order to minimize risk.
 
 ## Problem Domain
 
@@ -80,7 +80,7 @@ The indirect stakeholders of breast cancer diagnosis are those who may not suffe
 
 1.  What kind of relationship does race and location(sourced by zip code) have with the number of breast cancer cases? We want to discover whether the disadvantage brought by location and race has any effects on cancer treatment. This is critical in helping cancer patients who are racially or locationally disadvantaged.
 
-2.  Is there a correlation between serveries and marital status? We would like to know if marital status affects a woman's quality of life and therefore the incidence of breast cancer.This can reflect whether the status of women in the family and the quality of life after marriage are influenced by gender
+2.  Is there a correlation between breast cancer and smoking and alcohol? We would like to know how smoking and or drinking alcohol affects the likelihood of breast cancer in women. This is important in helping spreading information regarding the true statistical hazards that smoking and alcoholism can lead to in women.
 
 3.  Which one of the three stages of cancer is the one that affects a patient's chance of survival the most? The three different cancer stages represent three different metrics, and we noticed that there are some examples where A stage is distant but the patient dies. It is important to know which indicator most affects the progression of the disease for breast cancer science.
 
