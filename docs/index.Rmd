@@ -1,7 +1,7 @@
 ---
 title: "Your Project Title"
-author: "project team members"
-date: "1/22/2022"
+author: "Benjamin Po, Jiacheng Gong, Ferryn Drake, Anneliese Boucher"
+date: "11/13/2022"
 output: html_document
 ---
 
@@ -9,11 +9,6 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## What is this file for?
-
-* This file will eventually become your project report for **P02: Exploratory Data Analysis**. Specifically, you will write rmarkdown to report your exploratory data analysis.
-
-* Please see Canvas for more details.
 
 ## ACCESSING THE /source DIRECTORY
 ### Example 1: Source some code and run a function
@@ -33,22 +28,73 @@ msg <- data_access_test(" Morgan!")
 
 > `r msg` Hope you have a good day!! 
 
+### Sourcing Summary Information
+```{r setup, include=FALSE}
+source("../source/summaryinfo.R")
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+The information calculated by our summary information function details change
+in cancer patients over the last 20 years, proportion of habitual smokers and or
+alcoholics and breast cancer diagnoses, chance of cure based on stage of diagnoses,
+correlation of age and breast cancer and proportion of breast cancer cases and deaths.
+We also want to calculate if there is a correlation between location and or race
+and breast cancer rates.
+
+
+### Sourcing summary table
+```{r setup, include=FALSE}
+source("../source/summarytable.R")
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+In our table we found that breast cancer rates have stayed relatively constant over the
+past 10 years. We also found that there is a positive correlation between habitual smoking
+and alcohol abuse and breast cancer. Furthermore, we calculated that most cases detected early
+are not lethal, while those detected in later stages are more likely to be lethal. We also found
+that most women are diagnosed between 55 and 64 years old, and that the proportion of breast
+cancer and deahts have slightly decreased over the past 10 years.
+
+
+### Sourcing location/race chart
+```{r setup, include=FALSE}
+source("../source/chart1.R")
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This chart displays the correlation between location of person's residence and their chance
+of getting breast cancer, as well as the correlation between a person's race and their 
+likelihood of getting breast cancer. We found that white women are the most likely to
+develop breast cancer.
+
+
+### Sourcing alcohol/smoking chart
+```{r setup, include=FALSE}
+source("../source/chart2.R")
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This table tracks the correlation between smoking and alcohol abuse and breast cancer
+rates. We found a strong positive correlation between these two factors, suggesting 
+those who indulge in one or both of those activities have a much higher chance of 
+being diagnosed with breast cancer.
+
+```{r setup, include=FALSE}
+source("../source/chart3.R")
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+### Sourcing stage chart
+This table tracks the correlation between the stage a patient is diagnosed in and
+their chance of survival. We found that the earlier someone is diagnosed, the higher
+their chance of survival. We found stage 3 to be curable and stage 4 as having 
+the highest mortality rate.
+
 ## ABOUT THIS FILE: 
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
-```{r cars}
-summary(cars)
-```
 
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
