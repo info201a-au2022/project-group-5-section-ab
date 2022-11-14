@@ -68,19 +68,19 @@ likelihood of getting breast cancer. We found that white women are the most like
 develop breast cancer.
 
 
-### Sourcing alcohol/smoking chart
+### Sourcing marital status
 ```{r setup, include=FALSE}
-source("../source/chart2.R")
+source("../source/chart-2.R")
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-This table tracks the correlation between smoking and alcohol abuse and breast cancer
-rates. We found a strong positive correlation between these two factors, suggesting 
-those who indulge in one or both of those activities have a much higher chance of 
+This table tracks the correlation between marital status and breast cancer
+rates. We did not find a strong positive correlation between these two factors, suggesting 
+those who are married in one or both of those activities do not have a much higher chance of 
 being diagnosed with breast cancer.
 
 ```{r setup, include=FALSE}
-source("../source/chart3.R")
+source("../source/chart_3.R")
 knitr::opts_chunk$set(echo = TRUE)
 ```
 

@@ -80,7 +80,7 @@ The indirect stakeholders of breast cancer diagnosis are those who may not suffe
 
 1.  What kind of relationship does race and location(sourced by zip code) have with the number of breast cancer cases? We want to discover whether the disadvantage brought by location and race has any effects on cancer treatment. This is critical in helping cancer patients who are racially or locationally disadvantaged.
 
-2.  Is there a correlation between breast cancer and smoking and alcohol? We would like to know how smoking and or drinking alcohol affects the likelihood of breast cancer in women. This is important in helping spreading information regarding the true statistical hazards that smoking and alcoholism can lead to in women.
+2.  Is there a correlation between breast cancer marital status? We would like to know how a person's marital status affects the likelihood of contracting breast cancer. This is important in helping spreading information regarding the importance of having a stable family life and whether that affects being at risk of contracting breast cancer.
 
 3.  Which one of the three stages of cancer is the one that affects a patient's chance of survival the most? The three different cancer stages represent three different metrics, and we noticed that there are some examples where A stage is distant but the patient dies. It is important to know which indicator most affects the progression of the disease for breast cancer science.
 
