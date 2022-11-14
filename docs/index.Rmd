@@ -1,5 +1,5 @@
 ---
-title: "Your Project Title"
+title: "Don't Panic: Interpreting the Breast Cancer Data"
 author: "Benjamin Po, Jiacheng Gong, Ferryn Drake, Anneliese Boucher"
 date: "11/13/2022"
 output: html_document
