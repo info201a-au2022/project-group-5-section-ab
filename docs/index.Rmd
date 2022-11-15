@@ -89,7 +89,7 @@ knitr::opts_chunk$set(echo = TRUE)
 This table tracks the correlation between the stage a patient is diagnosed in and
 their chance of survival. We found that the earlier someone is diagnosed, the higher
 their chance of survival. We found stage 3 to be curable and stage 4 as having 
-the highest mortality rate.
+the highest mortality rate. We also find the when the cancer is regional, which means that the cancer has spread to organs, tissue, or lymph nodes that are nearby, the the death rate is higher.  
 
 ## ABOUT THIS FILE: 
 
