@@ -19,7 +19,8 @@ ggplot(Breast_cancer_all, aes(x = '', y = ratio, fill = `Marital Status`)) +
     geom_bar(width = 1, stat = "identity") + 
     coord_polar("y", start=0) +  
     geom_text(aes(label = round(ratio,2)), position = position_stack(vjust = 0.5)) +
-    scale_fill_brewer("Blues") + ggtitle("Different proportion of surivial rate on different Marital Status")
+    scale_fill_brewer("Blues") + ggtitle("Different proportion of surivial rate on different Marital Status") + ylab('decimals are corelated survival rate')
+
 
 
 

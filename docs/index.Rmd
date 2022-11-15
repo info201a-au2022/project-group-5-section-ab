@@ -14,18 +14,13 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ### Summary Information
-This is a summary of our analysis. In our project, we find the zip code with most breast cancers is *summary_info$zipmostBcancer*. We found the highest survival months in T1 is *summary_info$survivalTstage1*. We found the highest survival months in T2 is *summary_info$survivalTstage2*. We found the highest survival months in T3 is
-*summary_info$survivalTstage3* For female in marriage status, the most occurrence of T stage is *summary_info$maritalrelationM*. For female in divorce status, the most occurrence of T stage is
-*summary_info$maritalrelationD* For female in Single status, the most occurrence of T stage is *summary_info$maritalrelationS*, it might because the sample in single group is too small. 
-For female in widow status, the most occurrence of T stage is *summary_info$maritalrelationW* 
 
-
-
-
-`
+This is a summary of our analysis. In our project, we find the zip code with most breast cancers is `r strtoi(summary_info$zipmostBcancer)`. We found the highest survival months in T1 is `r summary_info$survivalTstage1`. We found the highest survival months in T2 is `r summary_info$survivalTstage2`. We found the highest survival months in T3 is `r summary_info$survivalTstage3`. For female in marriage status, the most occurrence of T stage is `r summary_info$maritalrelationM`. For female in divorce status, the most occurrence of T stage is `r summary_info$maritalrelationD` For female in Single status, the most occurrence of T stage is `r summary_info$maritalrelationS`, it might because the sample in single group is too small. For female in widow status, the most occurrence of T stage is 
+`r summary_info$maritalrelationW`.
 
 
 ### summary table (tumor size, months, and marital status)
+
 ```{r table, message=FALSE, warning=FALSE, echo=FALSE}
 source("../source/summarytable.R")
 kable(Breasr_table, caption="Average tumor size and survival month with Marital Status") %>%            kable_styling(bootstrap_options = "striped", full_width = F)
@@ -34,32 +29,26 @@ kable(Breasr_table, caption="Average tumor size and survival month with Marital 
 
 As a supplyment of question 1, we want to examine the relationship between Marital Status, Average Tumor Size, and average Survival Months in our summary table. We found the divorced status has the biggest average tumor size (32).While Married group has the longest survival months.(72) Based on observation, we didn't found much corealtion between Marital Status, Average Tumor Size, and average Survival Months.
 
+### The bar chart (ratio and location)
 
-###  The bar chart (ratio and location)
 ```{r c1, code=readLines("../source/bar.R"), message=FALSE, eacho=FALSE}
 
 ```
-The plots is used in respond of question one. The plot is used to examine the relationship between breast cancer and location. We calculate the ratio of breast cancer in all cancers as the breast cancer indicator and use zip codes in the dataset as the indicator of the location
-Because location is categorical and ratio is numerical, we adopt barplot. According to the graph, it does show that ratio varies with zip code. It might implies that location could contribute to breast cancer.
 
-
-
+The plots is used in respond of question one. The plot is used to examine the relationship between breast cancer and location. We calculate the ratio of breast cancer in all cancers as the breast cancer indicator and use zip codes in the dataset as the indicator of the location Because location is categorical and ratio is numerical, we adopt barplot. According to the graph, it does show that ratio varies with zip code. It might implies that location could contribute to breast cancer.
 
 ### The pie chart (survival rates, Marital status)
+
 ```{r c2, code=readLines("../source/Pie.R"), message=FALSE, eacho=FALSE}
 
 ```
 
-We use this plot to examine question 3, that is if survival rates of relate to Marital status.
-We first calculate the survival rate of each Martial Status. We choose pie because we have 1 numerical data and 1 categorical data. Also we don't have too much variable to visualize, thus pie chart is a good choice. We do find out the trauma to the marriage (widowed, separated, Divorce) do relates to a lower survival rates..
+We use this plot to examine question 3, that is if survival rates of relate to Marital status. We first calculate the survival rate of each Martial Status. We choose pie because we have 1 numerical data and 1 categorical data. Also we don't have too much variable to visualize, thus pie chart is a good choice. We do find out the trauma to the marriage (widowed, separated, Divorce) do relates to a lower survival rates..
 
 ### The multiple bar chart (A,N,T stages and death)
+
 ```{r c3, code=readLines("../source/muti.R"), message=FALSE, eacho=FALSE}
 
 ```
+
 The series of graph is used to examine question 2. which stages in each stage indicator shows more severity than others.We take number of death (numerical) and stage (categorical) to make bar plot since it is the best graph fits us.We plot a barplot for each stage indicators. We can observe that for A stage, most of death taken place in Reional.For T stage, most of death taken place in T2. For N stage, most of death taken place in N1.
-
-
-
-
-
