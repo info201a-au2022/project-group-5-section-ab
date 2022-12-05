@@ -1,8 +1,8 @@
 library(stringr)
 library(dplyr)
-setwd("~/Documents/proj/project-group-5-section-ab/data")
-breast_cancer <- read.csv("Breast_Cancer.csv")
-cancer_rate <- read.csv("Cancer_Rates.csv")
+
+breast_cancer <- read.csv("~/Documents/info201/assignments/project-group-5-section-ab/data/Breast_Cancer.csv")
+cancer_rate <- read.csv("~/Documents/info201/assignments//project-group-5-section-ab/data/Cancer_Rates.csv")
 View(breast_cancer)
 View(cancer_rate)
 
