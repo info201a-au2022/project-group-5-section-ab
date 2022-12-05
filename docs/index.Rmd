@@ -15,6 +15,7 @@ install.packages("XQuartz")
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+<<<<<<< HEAD
 ### Sourcing Summary Information, Summary Table and Charts
 ```{r echo=FALSE, eval=TRUE, message=FALSE} 
 source("../source/summaryinfo.R")
@@ -29,25 +30,56 @@ source("../source/chart_3.R")
 barplot(Cancer_stat$ratio,names.arg=Cancer_stat$ZIP,xlab="Location",ylab="Breast_cancer_ratio",col=viridis(10),
         main="Breast cancer proportion of all cancers in different zip codes",border="red")
 knitr::opts_chunk$set(echo = FALSE)
+=======
+```{r summary, code=readLines("../source/summary_infomation.R"), message=FALSE, eacho=FALSE}
+
 ```
 
-This chart displays the correlation between location of person's residence and their chance
-of getting breast cancer, as well as the correlation between a person's race and their 
-likelihood of getting breast cancer. We found that white women are the most likely to
-develop breast cancer.
+### Summary Information
+
+This is a summary of our analysis. In our project, we find the zip code with most breast cancers is `r strtoi(summary_info$zipmostBcancer)`. We found the highest survival months in T1 is `r summary_info$survivalTstage1`. We found the highest survival months in T2 is `r summary_info$survivalTstage2`. We found the highest survival months in T3 is `r summary_info$survivalTstage3`. For female in marriage status, the most occurrence of T stage is `r summary_info$maritalrelationM`. For female in divorce status, the most occurrence of T stage is `r summary_info$maritalrelationD` For female in Single status, the most occurrence of T stage is `r summary_info$maritalrelationS`, it might because the sample in single group is too small. For female in widow status, the most occurrence of T stage is 
+`r summary_info$maritalrelationW`.
 
 
+### summary table (tumor size, months, and marital status)
+
+```{r table, message=FALSE, warning=FALSE, echo=FALSE}
+source("../source/summarytable.R")
+kable(Breasr_table, caption="Average tumor size and survival month with Marital Status") %>%            kable_styling(bootstrap_options = "striped", full_width = F)
+
+```
+
+As a supplyment of question 1, we want to examine the relationship between Marital Status, Average Tumor Size, and average Survival Months in our summary table. We found the divorced status has the biggest average tumor size (32).While Married group has the longest survival months.(72) Based on observation, we didn't found much corealtion between Marital Status, Average Tumor Size, and average Survival Months.
+
+### The bar chart (ratio and location)
+
+```{r c1, code=readLines("../source/bar.R"), message=FALSE, eacho=FALSE}
+
+>>>>>>> e2f9c64bec5cf2afcbd7b38e118b62bf3e17455f
+```
+
+The plots is used in respond of question one. The plot is used to examine the relationship between breast cancer and location. We calculate the ratio of breast cancer in all cancers as the breast cancer indicator and use zip codes in the dataset as the indicator of the location Because location is categorical and ratio is numerical, we adopt barplot. According to the graph, it does show that ratio varies with zip code. It might implies that location could contribute to breast cancer.
+
+### The pie chart (survival rates, Marital status)
+
+```{r c2, code=readLines("../source/Pie.R"), message=FALSE, eacho=FALSE}
+
+<<<<<<< HEAD
 ### Sourcing marital status
 ```{r echo=FALSE}
 chart2
 knitr::opts_chunk$set(echo = FALSE)
+=======
+>>>>>>> e2f9c64bec5cf2afcbd7b38e118b62bf3e17455f
 ```
 
-This table tracks the correlation between marital status and breast cancer
-rates. We did not find a strong positive correlation between these two factors, suggesting 
-those who are married in one or both of those activities do not have a much higher chance of 
-being diagnosed with breast cancer.
+We use this plot to examine question 3, that is if survival rates of relate to Marital status. We first calculate the survival rate of each Martial Status. We choose pie because we have 1 numerical data and 1 categorical data. Also we don't have too much variable to visualize, thus pie chart is a good choice. We do find out the trauma to the marriage (widowed, separated, Divorce) do relates to a lower survival rates..
 
+### The multiple bar chart (A,N,T stages and death)
+
+```{r c3, code=readLines("../source/muti.R"), message=FALSE, eacho=FALSE}
+
+<<<<<<< HEAD
 ```{r echo=FALSE}
  par(mfrow = c(1, 3))
 barplot(first$A_num, names.arg=first$name,col = '#8e82c6', xlab = 'A stage' , ylab = 'death counts')
@@ -91,3 +123,8 @@ This is an R Markdown document. Markdown is a simple formatting syntax for autho
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
 
+=======
+```
+
+The series of graph is used to examine question 2. which stages in each stage indicator shows more severity than others.We take number of death (numerical) and stage (categorical) to make bar plot since it is the best graph fits us.We plot a barplot for each stage indicators. We can observe that for A stage, most of death taken place in Reional.For T stage, most of death taken place in T2. For N stage, most of death taken place in N1.
+>>>>>>> e2f9c64bec5cf2afcbd7b38e118b62bf3e17455f
