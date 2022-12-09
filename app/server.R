@@ -57,14 +57,19 @@ server <- function(input, output) {
   })
   output$plot_info <- renderText ({
     if (input$typeselect == "bar") {
-      "The histogram demonstrates the tumor differentiation that causes death."
+      "The bar plot demonstrates the race mortality information.
+      In the breast cancer dataset, white females have the most death numbers,  
+      it is possible because that dataset has most white female samples"
       
     } else if (input$typeselect == "histogram") {
-      "The bar plot demonstrates the race mortality information."
+     
+      "The histogram demonstrates the tumor differentiation that causes death.
+      Most of death cases are moderately differentiated."
       
     }
     else if (input$typeselect == "scatter") {
-    "The scatter plot demonstrates the relationship between tumor sizes and survived months."
+    "The scatter plot demonstrates the relationship between tumor sizes and survived months.
+      It is hard to conclude the correlation between these two factors since the linearities is moderate and the outliers is massive."
     }
     
   })

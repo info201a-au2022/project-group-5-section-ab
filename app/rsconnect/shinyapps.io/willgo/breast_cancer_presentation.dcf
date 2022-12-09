@@ -5,10 +5,10 @@ account: willgo
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 7819544
-bundleId: 6603906
+bundleId: 6614653
 url: https://willgo.shinyapps.io/breast_cancer_presentation/
-when: 1670406614.68474
-lastSyncTime: 1670406614.68475
+when: 1670572051.26837
+lastSyncTime: 1670572051.26839
 asMultiple: FALSE
 asStatic: FALSE
 ignoredFiles: .RData
