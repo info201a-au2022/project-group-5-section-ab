@@ -2,10 +2,16 @@ library(stringr)
 library("viridis") 
 library(dtplyr)
 library(dplyr)
+
+
+
+
+
 library(tidyverse)
 
 breast_cancer <- read.csv('../data/Breast_Cancer.csv')
 cancer_rate <- read_csv("../data/Cancer_Rates.csv")
+
 
 
 summary_info <- list()
